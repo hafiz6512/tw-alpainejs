@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .item-transition {
+    @apply cursor-pointer transition-all ease-in-out duration-500;
+  }
+}
